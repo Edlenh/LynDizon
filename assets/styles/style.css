@@ -41,18 +41,6 @@ font-weight: 1000;
  
 
 }
-.game-board {
-  display: grid;
-  grid-template-rows: 200px 200px 200px;
-  grid-template-columns: 200px 200px 200px;
-}
-
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #AAA;
-}
 
 #green{
   background-color: #6A867E
