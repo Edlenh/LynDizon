@@ -1,0 +1,86 @@
+#white{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #F0EFD6	  
+}
+
+#blue{
+  background-color: #7694B2	
+}
+
+#orange{
+  background-color: #E5A055;
+}
+
+#red{
+display: flex;
+background-color: #BE6A5E;
+color:#F0EFD6;
+font-weight: 1000;
+}
+
+#red img{
+  width: 100%;
+  margin-top: 10px;
+}
+
+#redsub h3{
+  margin-top: 23px;
+  font-size: 25px;
+  font-weight: 200;
+}
+#redtitle h2{
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+#aboutLyn{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 20px;
+ 
+
+}
+.game-board {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AAA;
+}
+
+#green{
+  background-color: #6A867E
+}
+
+.card{
+  
+  width: 100%;
+  background-color: #f0efd6d4; 
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card-title{
+font-weight: bolder;
+font-style: italic;
+font-size: 30px;
+}
+
+.card img{
+  float: right;
+  margin-left: 50px;
+  margin: auto;
+  padding: 10px;
+  max-width: 50%;
+  border-radius:90% 10% 62% 38% / 35% 69% 31% 65% 
+}
+.card-text{
+  font-size: 20px;
+  display: block;
+ 
+}
