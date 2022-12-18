@@ -1,3 +1,23 @@
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    
+   
+}
+
+html{
+  box-sizing: border-box;
+  background-color:#F0EFD6;
+}
+
+
+
+
+.container-xxl{
+  margin-top: -10em;
+}
+
 #white{
     font-family: 'Courier New', Courier, monospace;
     background-color: #F0EFD6	  
@@ -33,6 +53,10 @@ font-weight: 1000;
   margin-top: 20px;
 }
 
+.row{
+  margin-top: 30px;
+}
+
 #aboutLyn{
   margin: auto;
   width: 50%;
@@ -46,29 +70,87 @@ font-weight: 1000;
   background-color: #6A867E
 }
 
-.card{
-  
-  width: 100%;
-  background-color: #f0efd6d4; 
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.card-title{
-font-weight: bolder;
-font-style: italic;
-font-size: 30px;
-}
-
-.card img{
-  float: right;
-  margin-left: 50px;
+.oval {
+  font-size: 60px;
+  color: beige;
+  width: 160px;
+  height: 80px;
+  background: #E5A055;
+  border-radius: 50%;
   margin: auto;
+  width: 50%;
+  margin-top: 50%;
   padding: 10px;
-  max-width: 50%;
-  border-radius:90% 10% 62% 38% / 35% 69% 31% 65% 
 }
-.card-text{
+
+
+
+.four-pointed-star{
+  position:relative;
+  margin:1em auto;
+  width:1em;
+  font-size:1em;
+}
+
+.four-pointed-star:before{
+  content:"";
+  position:absolute;
+  background:#F0EFD6; 
+  width:1em;
+  height:1.15em;
+  transform:rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+}
+
+.four-pointed-star:after{
+  content:"";
+  position:absolute;
+  background:#F0EFD6;
+  width:1em;
+  height:1.15em;
+  transform:rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+}
+
+.container2 {
+  background-color: #F0EFD6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+.container2 img {
+  max-width: 100%;
+
+}
+.image {
+  flex-basis: 40%;
+  float: right;
+}
+
+.text h1{
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.text {
+  font-family: 'Courier New', Courier, monospace;
+  justify-self: center;
+  text-align: center;
   font-size: 20px;
-  display: block;
- 
+  padding-left: 20px;
 }
+
+.text p{
+  font-size: 30px;
+}
+
+p {
+  width:18em;
+  text-align:justify;
+  }
+p:after {/* this adds an extra invisible line, so any other line is justified */
+  content:'';
+  display:inline-block;
+  width:100%;
+  vertical-align:top;
+  }
