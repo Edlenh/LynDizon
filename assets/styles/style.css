@@ -36,6 +36,7 @@ html{
   float: left;
   margin: auto -13px;
 }
+
 #red{
 display: flex;
 background-color: #BE6A5E;
