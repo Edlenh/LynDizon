@@ -20,7 +20,7 @@ html{
 
 #white{
     font-family: 'Courier New', Courier, monospace;
-    background-color: #F0EFD6	  
+    background-color: #f0efd6ce	  
 }
 
 #blue{
@@ -28,9 +28,14 @@ html{
 }
 
 #orange{
+  background-image: url("assets\images\orange.jpg");
   background-color: #E5A055;
 }
-
+#orange img{
+  width: 118%;
+  float: left;
+  margin: auto -13px;
+}
 #red{
 display: flex;
 background-color: #BE6A5E;
@@ -64,6 +69,14 @@ font-weight: 1000;
   font-size: 20px;
  
 
+}
+
+#blue{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#F0EFD6;
+  font-weight: bolder;
+  text-align: center;
+  
 }
 
 #green{
