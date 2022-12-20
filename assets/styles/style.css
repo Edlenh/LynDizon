@@ -20,11 +20,31 @@ html{
 
 #white{
     font-family: 'Courier New', Courier, monospace;
-    background-color: #f0efd6ce	  
+    background-color: #F0EFD6;
+    max-width: 800px;
+    
+    margin: 0 auto;
+    display: grid;
+    place-content: center;
+
+}
+#white img{
+ width: 70%;
+ 
 }
 
 #blue{
-  background-color: #7694B2	
+  background-color: #7694B2;	
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  place-content: center;
+  
+}
+#blue h1{
+  font-size: 30px;
+  font-weight: 700;
+  word-spacing: -3px;
 }
 
 #orange{
@@ -58,7 +78,13 @@ font-weight: 1000;
   font-size: 40px;
   margin-top: 20px;
 }
-
+#red a{
+  text-decoration: none;
+  color:#F0EFD6;
+}
+#red a:link{
+  text-decoration: none;
+}
 .row{
   margin-top: 30px;
 }
@@ -77,6 +103,7 @@ font-weight: 1000;
   color:#F0EFD6;
   font-weight: bolder;
   text-align: center;
+  font-size: 30px;
   
 }
 
