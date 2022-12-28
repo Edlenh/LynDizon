@@ -1,19 +1,48 @@
-body, html {
-    height: 100%;
-  }
-  
-  .bg {
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: fit-content;
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    
+   
+}
 
+html{
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-color:#F0EFD6;
+}
+
+.card{
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(180, 169, 17);
+    padding: 10px;
+    top: 40%;
   }
+
 
 .form{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.btn{
+  color: white;
+  background-color: rgb(180, 169, 17);
+  border: none;
+  margin-top: 2rem;
+}
+
+.footer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 300;
+  font-size: 20px;
 }
